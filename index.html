@@ -7,42 +7,45 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The peom will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The peom will go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/ericasof3" target="_blank">Érica Lemos</a> and
-      is
-      <a href="https://github.com/ericasof3/poem-generator" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://ai-poem-generator-shecodes-erica.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ericasof3" target="_blank">Érica Lemos</a>
+        and is
+        <a href="https://github.com/ericasof3/poem-generator" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-poem-generator-shecodes-erica.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
